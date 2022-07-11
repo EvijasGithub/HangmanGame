@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to Hangman!");
-        File dictionary = new File("C:/Users/evija/Downloads/engmix.txt");
+        File dictionary = new File("//uzraksti savu path uz txt failu");
 
         Scanner textScanner = new Scanner(dictionary);
         Scanner input = new Scanner(System.in);
